@@ -1,0 +1,39 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+    height: auto;
+    border: 1px solid black;
+    padding: 20px;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+}
+ 
+.list-input {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+ 
+.list ul {
+    list-style: none;
+}
+ 
+.favourite {
+    width: 100%;
+    height: auto;
+    border: none;
+}
+ 
+.save-button {
+    background-color: #d3d3d3;
+    width: 80px;
+    height: 40px;
+    color: #ffeedb;
+    margin-top: 40px;
+    /* padding: 10px 15px; */
+    border: none;
+}
