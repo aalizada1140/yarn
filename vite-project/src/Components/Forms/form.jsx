@@ -5,7 +5,7 @@ import { useState } from "react";
 import Card from "../Cards/card";
  
 const Form = ({ setList, list }) => {
-    const [data, setData] = useState([])
+    const [data, setData] = useState([0])
     const submitHandler = async (a) => {
         a.preventDefault();
         if (a.target.search.value) {

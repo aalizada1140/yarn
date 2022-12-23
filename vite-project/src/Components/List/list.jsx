@@ -14,8 +14,8 @@ const List = ({ list, setList }) => {
  
     const [value, setValue]=useState('')
 const goToList=()=>{
-    if(listInput.current.valueOf!=null){
-       setValue(listInput.current.valueOf.length)
+    if(listInput.current.value!=null){
+       setValue(listInput.current.value.length)
     }
 }
     return (
